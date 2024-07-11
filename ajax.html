@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajax JQuery</title>
+  </head>
+  <body>
+    <h1>Ajax JQuery</h1>
+    <div id="contenedor">
+      <div id="resultado"></div>
+    </div>
+
+    <ul id="tareas"></ul>
+
+    <form action="https://jsonplaceholder.typicode.com/posts" id="postForm">
+      <input type="text" id="title" placeholder="Ingresa el titulo" />
+      <br />
+      <textarea id="body" cols="30" rows="10"></textarea>
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/ajax.js"></script>
+  </body>
+</html>
